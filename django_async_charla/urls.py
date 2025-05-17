@@ -14,9 +14,21 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path
+from demo.views import sync_weather_view, async_weather_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
+    path(
+        "sync_weather/",
+        sync_weather_view,
+        name="sync_weather",
+    ),
+    path(
+        "async_weather/",
+        async_weather_view,
+        name="async_weather",
+    ),
 ]
