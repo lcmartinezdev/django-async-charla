@@ -2,6 +2,9 @@
 
 Este repositorio contiene el código de ejemplo utilizado en la charla "Django Asíncrono: Desbloqueando el Poder de la Programación Async" para PyCon US.
 
+
+
+
 ## 🚀 Descripción
 
 Una demostración práctica de las capacidades asíncronas de Django, comparando el rendimiento entre vistas síncronas y asíncronas al consumir APIs externas. El proyecto incluye ejemplos de:
@@ -64,6 +67,7 @@ Cada endpoint consulta el clima de múltiples ciudades y muestra el tiempo total
 
 - [Documentación oficial de Django Async](https://docs.djangoproject.com/en/stable/topics/async/)
 - [WeatherAPI.com - Docs](https://www.weatherapi.com/docs/)
+- [Presentación PyCon US](django-async.pdf)
 
 
 ## 📬 Contacto
